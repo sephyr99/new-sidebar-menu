@@ -19,7 +19,7 @@
       <header class="sidebar-menulist flex-property">
         <div class="company-details list-property flex" id="company-details">
           <i class="fa-brands fa-sketch" aria-hidden="true"></i
-          ><a href="#" class="company-logo-text list-items-text">The App</a>
+          ><a href="#" class="company-logo-text">The App</a>
         </div>
         <nav class="sidebarlist">
           <ul
@@ -27,46 +27,71 @@
             aria-label="Sidebar-Menu-List"
             class="side-menu flex-property"
           >
-            <li class="list-items list-property flex" aria-label="home">
-              <i class="fa-solid fa-house-chimney" aria-hidden="true"></i
-              ><a class="list-items-text" href="#">Dashboard</a>
+            <li class="list-items list-property" aria-label="home">
+              <a href="#" class="flex">
+                <i class="fa-solid fa-house-chimney" aria-hidden="true"></i>
+                <span aria-label="dashboard" class="list-items-text"
+                  >Dashboard</span
+                >
+              </a>
             </li>
-            <li class="list-items list-property flex" aria-label="search">
-              <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i
-              ><a class="list-items-text" href="#">Search</a>
+            <li class="list-items list-property" aria-label="search">
+              <a href="#" class="flex">
+                <i class="fa-solid fa-search" aria-hidden="true"></i>
+                <span aria-label="search" class="list-items-text">Search</span>
+              </a>
             </li>
-            <li class="list-items list-property flex" aria-label="insights">
-              <i class="fa-solid fa-bars-staggered" aria-hidden="true"></i
-              ><a class="list-items-text" href="#">Insights</a>
+            <li class="list-items list-property" aria-label="insights">
+              <a href="#" class="flex">
+                <i class="fa-solid fa-bars-staggered" aria-hidden="true"></i>
+                <span aria-label="insights" class="list-items-text"
+                  >Insights</span
+                >
+              </a>
             </li>
-            <li class="list-items list-property flex" aria-label="docs">
-              <i class="fa-solid fa-book" aria-hidden="true"></i
-              ><a class="list-items-text" href="#">Docs</a>
+            <li class="list-items list-property" aria-label="docs">
+              <a href="#" class="flex">
+                <i class="fa-solid fa-book" aria-hidden="true"></i>
+                <span aria-label="docs" class="list-items-text">Docs</span>
+              </a>
             </li>
-            <li class="list-items list-property flex" aria-label="community">
-              <i class="fa-solid fa-users" aria-hidden="true"></i
-              ><a class="list-items-text" href="#">Community</a>
+            <li class="list-items list-property" aria-label="community">
+              <a href="#" class="flex">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                <span aria-label="community" class="list-items-text"
+                  >Community</span
+                >
+              </a>
             </li>
-            <li class="list-items list-property flex" aria-label="tools">
-              <i class="fa-solid fa-toolbox" aria-hidden="true"></i
-              ><a class="list-items-text" href="#">Tools</a>
+            <li class="list-items list-property" aria-label="tools">
+              <a href="#" class="flex">
+                <i class="fa-solid fa-toolbox" aria-hidden="true"></i>
+                <span aria-label="tools" class="list-items-text">Tools</span>
+              </a>
             </li>
-            <li class="list-items list-property flex" aria-label="market">
-              <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i
-              ><a class="list-items-text" href="#">Market</a>
+            <li class="list-items list-property" aria-label="market">
+              <a href="#" class="flex">
+                <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+                <span aria-label="market" class="list-items-text">Market</span>
+              </a>
             </li>
-            <li class="list-items list-property flex" aria-label="resources">
-              <i class="fa-solid fa-circle-question" aria-hidden="true"></i
-              ><a class="list-items-text" href="#">Resources</a>
+            <li class="list-items list-property" aria-label="resources">
+              <a href="#" class="flex">
+                <i class="fa-solid fa-circle-question" aria-hidden="true"></i>
+                <span aria-label="resources" class="list-items-text"
+                  >Resources</span
+                >
+              </a>
             </li>
           </ul>
         </nav>
-        <div role="list" arial-hidden="true" aria-label="app-mode" class="mode">
-          <div class="dark mode-color"></div>
-          <div class="blue mode-color"></div>
-          <div class="light mode-color"></div>
-        </div>
+        <ul role="list" arial-hidden="true" aria-label="app-mode" class="mode">
+          <li class="dark-mode mode-color"></li>
+          <li class="night-mode mode-color"></li>
+          <li class="light-mode mode-color"></li>
+        </ul>
       </header>
     </main>
   </body>
+  <script src="/js/script.js"></script>
 </html>
